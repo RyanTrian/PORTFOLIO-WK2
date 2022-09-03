@@ -1,59 +1,73 @@
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header h1 {
-    margin-left: 15px;
-}
-
-header ul {
-    margin-right: 150px;
-    margin-left: 10%;
-    padding: 0px;
-    display: flex;
-    /* justify-content: flex-end; */
-
-}
-
-header ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 10px;
-    font-size: 20px;
-    flex-wrap: nowrap;
-    width: 115px;
-}
-
-body {
+* {
     margin: 0;
     padding: 0;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+}
+
+header h1 {
+  margin: 0 15px;
+  padding: 20px;
+  /* box-sizing: border-box; */
+  background-color: antiquewhite;
+}
+
+header nav {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+  margin-right: 100px;
+  padding: 0px;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+  font-size: 20px;
+  width: 115px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .hero {
-    /* height: 200px;
-    width: 100%;
-    margin-bottom: 25px; */
-    background-image: url("../Images/abstract-background-of-four-colored-triangles.jpg");
-    height: 80%;
-    /* background-size: cover;
-    background-position: center; */
-}
-/* figure {
-    margin: 0px;
-    height: 250px;
-    width: 100%;
+  background-image: url("../Images/abstract-background-of-four-colored-triangles.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30vh;
+  margin: 0;
+  width: 100%;
 }
 
-figure img {
-    height: 250px;
-    width: 100%;
-    object-fit: none;
-}  */
-
-*{
+/* *{
     outline: 3px solid limegreen !important;
     background: rgba(0, 151, 0, 0.1) !important;
+    } */
+@media screen and (max-width: 768px) {
+    header  {
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
     }
+
+    header h1 {
+        display: inline
+    }
+
+    nav ul {
+        margin: 0;
+    }
+}
