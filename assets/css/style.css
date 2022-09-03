@@ -29,12 +29,21 @@ nav ul {
 }
 
 nav ul li {
-  list-style: none;
+  
   display: inline-block;
   margin: 10px;
   font-size: 20px;
   width: 115px;
   text-align: center;
+}
+
+nav ul li:hover {
+  background-color: aliceblue;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 body {
@@ -43,14 +52,38 @@ body {
 }
 
 .hero {
-  background-image: url("../Images/abstract-background-of-four-colored-triangles.jpg");
+  background-image: url("../Images/Hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 30vh;
   margin: 0;
   width: 100%;
+  position: relative;
 }
+
+.hero h4 {
+  position: absolute;
+  bottom: 5px;
+  right: 50px;
+  font-size: 40px;
+  background-color: antiquewhite;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#about-me {
+  box-sizing: border-box;
+  margin: 20px;
+  padding: 5px;
+  justify-content: flex-end;
+  font-size: 50px;
+}
+
 
 /* *{
     outline: 3px solid limegreen !important;
