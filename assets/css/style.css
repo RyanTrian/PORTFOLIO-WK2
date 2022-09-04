@@ -8,6 +8,8 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: grey;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 header h1 {
@@ -35,6 +37,7 @@ nav ul li {
   font-size: 20px;
   width: 115px;
   text-align: center;
+  /* flex: 1 1 0; */
 }
 
 nav ul li:hover {
@@ -46,19 +49,14 @@ nav ul li a {
   color: black;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .hero {
   background-image: url("../Images/Hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 30vh;
-  margin: 0;
-  width: 100%;
+  /* width: 100vw; */
+  flex: 0 0 90%;
   position: relative;
 }
 
@@ -80,14 +78,16 @@ main {
   align-items: center;
 }
 
-#about-me {
+.aside {
   box-sizing: border-box;
   margin: 20px;
-  padding: 5px;
-  width: 200px;
-  font-size: 50px;
+  padding-right: 15px;
+  /* width: 200px; */
+  flex: 0 0 20%;
+  font-size: 4vw;
   font-weight: 700;
   border-right: 5px solid #4287f5;
+  text-align: right;
 }
 
 .work {
@@ -96,14 +96,8 @@ main {
   align-items: center;
 }
  
-#work {
-  box-sizing: border-box;
-  margin: 20px;
-  padding: 5px;
-  width: 200px;
-  font-size: 50px;
-  font-weight: 700;
-  border-right: 5px solid #4287f5;
+.content {
+  flex: 0 0 80%;
 }
 
 /* *{
@@ -125,5 +119,3 @@ main {
         margin: 0;
     }
 }
-
-/* test */
