@@ -9,15 +9,15 @@ A portfolio of mine, created to imitate the mock-up from Coding Bootcamp week 2'
 
 ## Challenges 🤔
 
-* I was a struggle to decide which unit should be apply for which property, so I decided to pause and read up a bunch of document. An article from [DigitalOcean](https://www.digitalocean.com/community/tutorials/css-rem-vs-em-units) was the most helpful one.
-* Spacing like padding, border, and margin, then account them for either border-box or content-box. Then, add flex box on top of that, some how it works but I feel there's a lot more I need to research on.
+* It was a struggle to decide which unit should be apply for which property, so I decided to pause and read up a bunch of documents. An article from [DigitalOcean](https://www.digitalocean.com/community/tutorials/css-rem-vs-em-units) was the most helpful one.
+* Spacing like padding, border, and margin, then account them for either border-box or content-box. Also added flex box on top of them. Some how it works but I feel there's a lot more I need to research on.
 
-A lot more challenges were encountered but the two above are the major ones. If you know what I'm talking about and have resources that help you in the past with these, then please point me to them.
+A lot more challenges were encountered but the two above are the major ones. If you were struggle with them before and have resources that help you in the past, then please point me to them.
 
 ## Usage
 
-* Users can view the portfolio on devices like either a desktop, tablet or mobile phone.
-*  Users can also interact with the nav bar, the cards in Works section and the Contact Me section at the bottom of the page
+* Users can view the portfolio on disfferent devices like a desktop, tablet or mobile phone.
+*  Users can also interact with the nav bar, the cards in Works section and the Contact Me section at the bottom of the page.
 
 ## Demo 
 
