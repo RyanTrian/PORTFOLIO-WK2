@@ -16,7 +16,7 @@ A lot more challenges were encountered but the two above are the major ones. If 
 
 ## Usage
 
-* Users can view the portfolio on disfferent devices like a desktop, tablet or mobile phone.
+* Users can view the portfolio on differents devices like a desktop, tablet or mobile phone.
 * Users can also interact with the nav bar, the cards in Works section and the Contact Me section at the bottom of the page.
 
 ## Demo 
