@@ -1,5 +1,5 @@
 # PORTFOLIO-WK2
-<h2 align="center"><img src="./assets/Images/Minh%20Portfolio.gif" alt="Kitten" title="A cute kitten" width="550px" height="350px"/> </h2>
+<h2 align="center"><img src="./assets/Images/Minh%20Portfolio.gif" alt="GitHub Page Demo" title="Demo" width="550px" height="350px"/> </h2>
 
 ## TLDR 👀
 
@@ -23,7 +23,7 @@ A lot more challenges were encountered but the two above are the major ones. If 
 
 Mobile Responsive Demo
 
-<h2 align="center"><img src="./assets/Images/Responsive%20Demo.gif" alt="Kitten" title="A cute kitten" width="550px" height="350px"/> </h2>
+<h2 align="center"><img src="./assets/Images/Responsive%20Demo.gif" alt="Mobile Responsive Demo" title="Mobile Responsive Demo" width="550px" height="350px"/> </h2>
 
 ## License
 
